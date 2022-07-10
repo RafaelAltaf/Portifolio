@@ -1,10 +1,8 @@
-nomes = ['Rafael', 'Altaf', 'da', 'silva', 'pereira', 'pinto', 'de', 'jesus']
+#O Append adiciona um elemento no final da lista
 
-adicionar = [input("O que você deseja adicionar à lista? -> ")]
-nomes += adicionar
-print(nomes)
+nomes = ['Rafael', 'Altaf', 'da', 'Silva', 'Pinheiro', 'de', 'Jesus']
 
-#def adicionar(lista, elemento):
-#    lista += elemento
-#    return lista
-#print(adicionar(nomes, "Lima")) erro = salva caracter por caracter de "Lima"
+def Append(lista, elemento):
+    lista += [elemento]
+    return lista
+print(Append(nomes, "Lima")) 

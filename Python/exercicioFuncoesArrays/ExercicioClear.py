@@ -1,6 +1,11 @@
-nomes = ['Rafael', 'Altaf', 'da', 'silva', 'pereira', 'pinto', 'de', 'jesus']
+#O clear remove todos os elementos da lista
 
-while nomes != []:
-    nomes.pop()
-print(nomes)
+nomes = ['Rafael', 'Altaf', 'da', 'Silva', 'Pinheiro', 'de', 'Jesus']
+
+def Clear(lista):
+    while lista != []:
+        lista.pop()
+    print(nomes)
+
+Clear(nomes)
 

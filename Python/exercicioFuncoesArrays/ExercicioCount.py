@@ -1,9 +1,13 @@
+#A função count mostra quantas vezes um elemento especificado aparece na lista.
+
 nomes = ['Rafael', 'Altaf', 'da', 'silva', 'pereira', 'pinto', 'de', 'jesus', 'pinto', 'da', 'jesus', 'pereira', 'jesus', 'Altaf', 'Altaf', 'da', 'de', 'Rafael']
-elemento = input("Qual elemento você deseja verificar -> ")
-numElemento = 0
 
-for nome in nomes:
-    if nome == elemento:
-       numElemento = numElemento + 1
+def Count(lista, elemento):
+    numElemento = 0
+    for i in lista:
+        if i == elemento:
+           numElemento = numElemento + 1
+    return numElemento
 
-print(f"Há {numElemento} {elemento}'s na lista.")
+numElemento = Count(nomes, "Rafael")
+print(f"O elemento aparece {numElemento} vezes na lista.")

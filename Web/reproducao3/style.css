@@ -1,0 +1,135 @@
+/** menu **/
+body {
+    font-family: "Montserrat",sans-serif;
+}
+
+img { cursor : pointer;}
+
+.cocoon {
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom : 60px;
+}
+
+.menu {
+    background-color: #18181c;
+    min-height : 100%;
+    width : 216px;
+    position : absolute;
+    left : 0px;
+    top : 0px;
+}
+
+.menu:hover {
+    background-color : #18181c;
+}
+
+div:hover {
+    background-color : #99896E;
+}
+
+div{
+    width : 150px;
+}
+
+p {
+    color : #fff;
+    font-size : 13px;
+    font-weight : 300;
+    padding: 12px 25px 6px 50px;
+    margin-bottom: 14px;
+    cursor : pointer;
+}
+
+.filter {
+    color : #99896E;
+    font-size : 15px;
+    margin-bottom : 20px;
+    margin-top : 45px;
+    font-weight: 500;
+}
+
+.pFilter {
+    margin-bottom: 8px;
+    padding-bottom : 0px;
+    line-height: 13.5px;
+    cursor : initial;
+}
+
+.copyright {
+    color : #99896E;
+    font-size : 12px;
+    font-weight : 500;
+    text-align : center;
+    margin : 0px, 0px, 15px;
+    cursor : initial;
+    padding: 12px 25px 6px 25px;
+    line-height: 25px;
+}
+
+.icons {
+    margin-left : 30px;
+    margin-top : 105px;
+    margin-bottom : 70px;
+}
+
+.icons:hover {
+    background-color : transparent;
+}
+
+.icons img {
+    margin-left : 13px;
+}
+
+/** imagens **/
+
+.img1, .img2, .img3 {
+    position : absolute;
+    top : 50px;
+}
+
+.img1 {
+ left : 261.5px;  
+}
+
+.img2 {
+    left : 521.5px;
+}
+
+.img3 {
+    left : 1041.5px;
+}
+
+.img4, .img5, .img6 {
+    position : absolute;
+    top : 310px;
+}
+
+.img4 {
+    left : 521.5px;
+}
+
+.img5 {
+    left : 781.5px;
+}
+
+.img6 {
+    left : 1041.5px;
+}
+
+.img7, .img8, .img9 {
+    position : absolute;
+    top : 570px;
+}
+
+.img7 {
+    left : 261.5px;
+}
+
+.img8 {
+    left : 521.5px;
+}
+
+.img9 {
+    left : 783px;
+}

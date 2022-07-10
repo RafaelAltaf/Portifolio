@@ -1,12 +1,14 @@
-nomes = ['Rafael', 'Altaf', 'da', 'da' 'silva', 'pereira', 'pinto', 'de', 'jesus']
-elemento = input("Você deseja saber o index de qual elemento? -> ")
-contadora = 0
+#A função index mostra o index da primeira vez em que o elemento aparece na lista.
 
-for a in nomes:
-    contadora = contadora + 1
-    if a == elemento:
-        index = contadora - 1
-        print(f"O index é igual a {index}")
-        break
+nomes = ['Rafael', 'Altaf', 'da', 'Silva', 'Pinheiro', 'de', 'Jesus']
 
-print(nomes[index])
+def Index(lista, elemento):
+    contadora = 0
+    for a in lista:
+        contadora = contadora + 1
+        if a == elemento:
+            index = contadora - 1
+            break
+    return index
+
+print(Index(nomes, "Rafael"))
