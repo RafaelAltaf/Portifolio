@@ -21,4 +21,4 @@
 
 #### Neste projeto eu criei um banco de dados em txt para armazenar e gerenciar os produtos de um armazem. 
 #### Os seguintes dados são registrados no txt através da função open: nome do produto, id do produto e unidades do produto (quantidade).
-#### É possível adicionar, deletar, exibir, pesquisar e editar todos os produtos. Todas essas opções estão no menu inicial.
+#### É possível adicionar, deletar, exibir, pesquisar e editar a quantidade de todos os produtos. Todas essas opções estão no menu inicial.
